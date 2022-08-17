@@ -1,0 +1,49 @@
+*{
+    cursor: url(mazo.png), auto;
+}
+
+.contenedor{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: sienna;
+}
+
+.cuadro{
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;    
+}
+
+.topo{
+    background-size: cover;
+    background-image: url(topo.jpg);
+}
+
+.bttnIniciar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #23b79c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.bttnIniciar:hover {background-color: #0c372f}
+
+.bttnIniciar:active {
+  background-color: #30989c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h2{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}

@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.Container{
+	width: 500px !important;
+    height: 830px !important;
+	left: 30%;
+    background-color: rgb(228, 228, 222);
+    background: rgb(228, 228, 222);
+    display: grid;
+    align-content: center;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+        -9px -9px 16px rgba(255, 255, 255, 0.5);
+	}
+	
+.Container1{
+	width: 230px !important;
+    height: 230px !important;
+	left: 70%;
+	top: 40%;
+	text-align: center;
+    background-color: rgb(228, 228, 222);
+    background: rgb(228, 228, 222);
+    position: absolute;
+    border-radius: 20px;
+	}
+
+	body {
+		background-color: #ffdd90;
+		background-image: url("fond.jpg");
+		
+	  }
+.edificio{
+	width: 450px;
+	height: 100vh;
+	top: 5%;
+	left: 32%;
+	position: absolute;
+	background: rgb(228, 228, 222);
+	border-radius: 5%;
+}
+.edificio .piso{
+	width: 450px;
+	height: 20vh;
+	box-shadow: 0px 2px black;
+	font-size: 40px;
+}
+.edificio .ascensor{
+	width: 100px;
+	height: 20vh;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.total{
+	margin-left: 20px;
+}
+.edificio .piso{
+	position: relative;
+}
+.edificio .piso img{
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
+
+.btn-subir{
+	
+	top: 5px;
+	height: 75px;
+	width: 150px;
+	left: 13%;
+	background-color: red;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.btn{
+	
+	top: 5px;
+	height: 75px;
+	width: 150px;
+	left: 13%;
+	background-color: rgb(79, 79, 156);
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.btn-tomar{
+	top: 85px;
+	height: 75px;
+	width: 150px;
+	left: 13%;
+	background-color: rgb(171, 171, 209);
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
